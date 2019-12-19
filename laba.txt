@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>Document</title>
+
+</head>
+
+<body>
+
+  <script>
+
+//Упражнение 1
+
+var x=prompt('x')
+
+var y=prompt('y')
+
+if (x>y)
+
+alert (x)
+
+else if (y>x)
+
+alert (y)
+
+//Упражнение 2
+
+var X=prompt('X')
+
+var Y=prompt('y')
+
+var C
+
+if (X>Y)
+
+{
+
+C=X
+
+X=Y
+
+Y=C
+
+}
+
+console.log(Y,X);
+
+//Упражнение 3
+
+Ответ:Нет,не выведет\
+
+//Упражнение 4
+
+var A=prompt('A')
+
+var B=prompt('B')
+
+var C=prompt('C')
+
+var D
+
+if (A>B)
+
+D=A
+
+else if (A<B)
+
+D=B
+
+if (C>D)
+
+D=C
+
+console.log(D)
+
+//Упражнение 5,6
+
+  var ageFa=prompt('Возраст Папы')
+
+  var ageMa=prompt('Возраст Мамы')
+
+  if (ageFa>ageMa)
+
+  	alert ('Папа старше Мамы');
+
+  else
+
+  	if (ageFa==ageMa)
+
+  		alert ('Папа и мама ровестники');
+
+  		else
+
+  			alert ('Мама старше Папы');
+
+//Упражнение 7
+
+var a=+prompt("enter number 1")
+
+var b=+prompt("enter number 2")
+
+var c=prompt("enter sign")
+
+var d
+
+if (c=="+")
+
+  console.log(a+b)
+
+else
+
+  if (c=="-")
+
+    console.log(a-b)
+
+  else
+
+    if (c=="*")
+
+      console.log(a*b)
+
+          else
+
+        if (c=="/")
+
+          console.log(a/b)
+
+    //Упражнение 8
+
+  var value=+prompt('Введите тысячу')
+
+if (value==1000)
+
+console.log('Верно')
+
+else
+
+console.log('Неверно')
+
+//Упражнение 8
+
+var a = 5 + 10;
+
+switch ( a ) {
+
+case 9:
+
+alert ( 'Это меньше а' );
+
+break;
+
+case 10:
+
+alert ('Это a' );
+
+break;
+
+case 11:
+
+alert ('Это больше а' );
+
+break;
+
+default:
+
+alert ('Это не a!');
+
+}
+
+//Упражнение 9
+
+var lang = prompt('lang ');
+
+if(lang == 'en'){
+
+	var week = ["Mn","Ts","Wd","Th","Fr","St","Sn"];
+
+}
+
+
+
+else if(lang == 'ru'){
+
+	var week = ["Пн","Вт","Ср","Чт","Пт","Сб","Вс"];
+
+}
+
+
+
+else
+
+        alert('Введите en or ru');
+
+
+
+console.log(week);
+
+//Упражнение 10
+
+var a = parseInt( prompt('Введите число1'));
+
+var c = prompt('Введите знак');
+
+var b = parseInt( prompt('Введите число2'));
+
+var s;
+
+
+
+switch(c){
+
+    case '+':
+
+	c == a + b;
+
+break;
+
+    case '-':
+
+	c == a - b;
+
+break;
+
+    case '*':
+
+	c == a * b;
+
+break;
+
+    case '/':
+
+	if(b == 0)
+
+	alert('на ноль делить нельзя');
+
+	else
+
+	c = a / b;
+
+break;
+
+}
+
+console.log(s)
+
+//Упражнение 11
+
+var word = prompt('Введите слово');
+
+var a= 0,e = 0,i = 0,o = 0;
+
+var b = 1;
+
+for(var c = 0; c < word.length; c++)
+
+{
+
+    if(word.charAt(word.length-b) === 'a')
+
+        a++;
+
+    if(word.charAt(word.length-b) === 'e')
+
+        e++;
+
+    if(word.charAt(word.length-b) === 'i')
+
+        i++;
+
+    if(word.charAt(word.length-b) === 'o')
+
+        o++;
+
+    b++;
+
+}
+
+console.log('Количество букв а - ' + a + '  Количество букв e - ' + e + '   Количество букв i - ' + i + '   Количество букв o - ' + o);
+
+
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+<title>Document</title>
+
+  </script>
+
+</body>
+
+</html>
+
+<!DOCTYPE html>
